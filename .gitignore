@@ -1,0 +1,17 @@
+# Database
+*.sql
+
+# Config rahasia
+.env
+
+# Cache
+cache/
+tmp/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

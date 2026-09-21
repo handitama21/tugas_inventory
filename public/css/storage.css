@@ -1,0 +1,192 @@
+/* =========================
+   STORAGE HEADER
+========================= */
+
+.page-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.page-header h1 {
+    font-size: 28px;
+    color: #111827;
+    margin-bottom: 6px;
+}
+
+.page-header p {
+    color: #6b7280;
+    font-size: 14px;
+}
+
+
+/* =========================
+   BUTTON
+========================= */
+
+.btn-primary {
+    display: inline-block;
+    padding: 10px 16px;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+    font-size: 13px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #1d4ed8;
+}
+
+.btn-edit {
+    display: inline-block;
+    padding: 6px 11px;
+    background-color: #eff6ff;
+    color: #2563eb;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+.btn-edit:hover {
+    background-color: #dbeafe;
+}
+
+.btn-danger {
+    display: inline-block;
+    padding: 6px 11px;
+    background-color: #fef2f2;
+    color: #dc2626;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+.btn-danger:hover {
+    background-color: #fee2e2;
+}
+
+
+/* =========================
+   CONTENT CARD
+========================= */
+
+.content-card {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+
+/* =========================
+   TABLE
+========================= */
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th {
+    background-color: #f8fafc;
+    color: #6b7280;
+    font-size: 12px;
+    text-align: left;
+    padding: 14px 20px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+table td {
+    padding: 15px 20px;
+    font-size: 13px;
+    border-bottom: 1px solid #f1f5f9;
+    color: #374151;
+}
+
+table tbody tr:hover {
+    background-color: #f8fafc;
+}
+
+
+/* =========================
+   FORM
+========================= */
+
+.form-card {
+    max-width: 800px;
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 25px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    color: #374151;
+    margin-bottom: 7px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 11px 13px;
+    border: 1px solid #d1d5db;
+    border-radius: 7px;
+    font-size: 13px;
+    outline: none;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #2563eb;
+}
+
+.form-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.btn-cancel {
+    display: inline-block;
+    padding: 10px 16px;
+    background-color: #f3f4f6;
+    color: #374151;
+    text-decoration: none;
+    border-radius: 7px;
+    font-size: 13px;
+}
+
+.btn-cancel:hover {
+    background-color: #e5e7eb;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 600px) {
+
+    .page-header {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+}
